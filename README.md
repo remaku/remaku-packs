@@ -12,12 +12,12 @@ Community-shared macro packs for [Remaku](https://github.com/remaku/remaku).
 
 ### Forza Horizon 6 (`packs/fh6/`)
 
-| Pack                                         | Description          |
-| -------------------------------------------- | -------------------- |
-| [buy_22B.zip](packs/fh6/buy_22B.zip)         | Auto-buy 22B car     |
-| [farm_sp.zip](packs/fh6/farm_sp.zip)         | Farm skill points    |
-| [remove_22B.zip](packs/fh6/remove_22B.zip)   | Auto-remove 22B car  |
-| [upgrade_22B.zip](packs/fh6/upgrade_22B.zip) | Auto-upgrade 22B car |
+| Pack                                                                                                    | Description          |
+| ------------------------------------------------------------------------------------------------------- | -------------------- |
+| [buy_22B.zip](https://raw.githubusercontent.com/remaku/remaku-packs/main/packs/fh6/buy_22B.zip)         | Auto-buy 22B car     |
+| [farm_sp.zip](https://raw.githubusercontent.com/remaku/remaku-packs/main/packs/fh6/farm_sp.zip)         | Farm skill points    |
+| [remove_22B.zip](https://raw.githubusercontent.com/remaku/remaku-packs/main/packs/fh6/remove_22B.zip)   | Auto-remove 22B car  |
+| [upgrade_22B.zip](https://raw.githubusercontent.com/remaku/remaku-packs/main/packs/fh6/upgrade_22B.zip) | Auto-upgrade 22B car |
 
 ## Contributing
 
