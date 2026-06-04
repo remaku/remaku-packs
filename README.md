@@ -32,7 +32,6 @@ Community-shared macro packs for [Remaku](https://github.com/remaku/remaku).
 packs/<game>/<pack_name>/
   macro.json
   templates/
-    <id>.json
     <id>.png
 ```
 
