@@ -1,0 +1,44 @@
+name: Pack
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build ZIPs
+        shell: bash
+        run: |
+          mkdir -p output
+          for game_dir in packs/*/; do
+            for pack_dir in "$game_dir"*/; do
+              pack=$(basename "$pack_dir")
+              (cd "$pack_dir" && zip -qr "../../output/${pack}.zip" .)
+            done
+          done
+          echo "--- Built packs ---"
+          ls -lh output/
+
+      - name: Extract changelog for this version
+        shell: pwsh
+        run: |
+          $tag = "${{ github.ref_name }}" -replace '^v', ''
+          $content = [System.IO.File]::ReadAllText("CHANGELOG.md", [System.Text.Encoding]::UTF8)
+          if ($content -match "(?ms)^## v$([regex]::Escape($tag))\s*\r?\n(.+?)(?=\r?\n## |\z)") {
+            [System.IO.File]::WriteAllText("RELEASE_BODY.md", $Matches[2].Trim(), [System.Text.Encoding]::UTF8)
+          } else {
+            [System.IO.File]::WriteAllText("RELEASE_BODY.md", "", [System.Text.Encoding]::UTF8)
+          }
+
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v3
+        with:
+          files: output/*.zip
+          body_path: RELEASE_BODY.md

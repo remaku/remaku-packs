@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "name": "1780171788",
+    "label": "升級 22B",
+    "target_window": "Forza Horizon 6",
+    "hotkey": ""
+  },
+  "templates": {
+    "1780171807": {
+      "label": "22B",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780172606": {
+      "label": "超級輪盤",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780172385": {
+      "label": "車輛熟練度",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780172676": {
+      "label": "排序",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780172298": {
+      "label": "我的車輛",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780172255": {
+      "label": "展開",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780172271": {
+      "label": "我的車輛",
+      "capture_width": 3840,
+      "capture_height": 2160
+    }
+  },
+  "steps": [
+    {
+      "type": "repeat",
+      "count": 33,
+      "steps": [
+        {
+          "type": "wait_image",
+          "template": "1780171807",
+          "timeout_ms": 5000,
+          "on_timeout": "stop",
+          "threshold": 0.85
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 500
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "if_any_image",
+          "templates": [
+            "1780172255",
+            "1780172271"
+          ],
+          "timeout_ms": 15000,
+          "on_timeout": "stop",
+          "branches": {
+            "1780172255": [
+              {
+                "type": "key",
+                "key": "esc",
+                "hold_ms": 90
+              },
+              {
+                "type": "wait_image",
+                "template": "1780172298",
+                "timeout_ms": 5000,
+                "on_timeout": "stop",
+                "threshold": 0.85
+              }
+            ]
+          },
+          "threshold": 0.85
+        },
+        {
+          "type": "delay",
+          "ms": 200
+        },
+        {
+          "type": "key",
+          "key": "down",
+          "hold_ms": 90
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 500
+        },
+        {
+          "type": "repeat",
+          "count": 7,
+          "steps": [
+            {
+              "type": "key",
+              "key": "down",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 100
+            }
+          ]
+        },
+        {
+          "type": "wait_image",
+          "template": "1780172385",
+          "timeout_ms": 5000,
+          "on_timeout": "stop",
+          "threshold": 0.85
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 500
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 1500
+        },
+        {
+          "type": "key",
+          "key": "right",
+          "hold_ms": 90
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 700
+        },
+        {
+          "type": "repeat",
+          "count": 3,
+          "steps": [
+            {
+              "type": "key",
+              "key": "up",
+              "hold_ms": 90
+            },
+            {
+              "type": "key",
+              "key": "enter",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 700
+            }
+          ]
+        },
+        {
+          "type": "key",
+          "key": "left",
+          "hold_ms": 90
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 500
+        },
+        {
+          "type": "wait_image",
+          "template": "1780172606",
+          "timeout_ms": 5000,
+          "on_timeout": "stop",
+          "threshold": 0.85
+        },
+        {
+          "type": "repeat",
+          "count": 2,
+          "steps": [
+            {
+              "type": "key",
+              "key": "esc",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 1000
+            }
+          ]
+        },
+        {
+          "type": "key",
+          "key": "up",
+          "hold_ms": 90
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "wait_image",
+          "template": "1780172676",
+          "timeout_ms": 5000,
+          "on_timeout": "stop",
+          "threshold": 0.85
+        },
+        {
+          "type": "key",
+          "key": "x",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 500
+        },
+        {
+          "type": "repeat",
+          "count": 6,
+          "steps": [
+            {
+              "type": "key",
+              "key": "down",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 100
+            }
+          ]
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 1500
+        },
+        {
+          "type": "grid_nav",
+          "rows": 3,
+          "on_next_row": [
+            {
+              "type": "key",
+              "key": "down",
+              "hold_ms": 90
+            }
+          ],
+          "on_next_col": [
+            {
+              "type": "key",
+              "key": "right",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 200
+            },
+            {
+              "type": "key",
+              "key": "up",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 200
+            },
+            {
+              "type": "key",
+              "key": "up",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "ms": 200
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

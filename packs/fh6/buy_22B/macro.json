@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "name": "1780171581",
+    "label": "購買 22B",
+    "target_window": "Forza Horizon 6"
+  },
+  "templates": {
+    "1780171642": {
+      "label": "22B",
+      "capture_width": 3840,
+      "capture_height": 2160
+    }
+  },
+  "steps": [
+    {
+      "type": "repeat",
+      "count": 33,
+      "steps": [
+        {
+          "type": "wait_image",
+          "template": "1780171642",
+          "timeout_ms": 5000,
+          "on_timeout": "stop",
+          "threshold": 0.85
+        },
+        {
+          "type": "key",
+          "key": "space",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 300
+        },
+        {
+          "type": "key",
+          "key": "down",
+          "hold_ms": 90
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 300
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        },
+        {
+          "type": "delay",
+          "ms": 300
+        },
+        {
+          "type": "key",
+          "key": "enter",
+          "hold_ms": 90
+        }
+      ]
+    }
+  ]
+}
