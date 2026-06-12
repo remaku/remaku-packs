@@ -23,10 +23,21 @@ Community-shared macro packs for [Remaku](https://github.com/remaku/remaku).
 
 `catalog.json` is the machine-readable source used by Remaku's Pack Explorer.
 
-Each pack entry uses localized text for user-facing fields:
+The catalog has a top-level `games` list for game metadata:
 
 ```json
 {
+  "id": "forza-horizon-6",
+  "label": "Forza Horizon 6"
+}
+```
+
+Each pack entry uses `pack_id` as its stable identity, references a game by `game`, and uses localized text for user-facing pack fields:
+
+```json
+{
+  "pack_id": "forza-horizon-6.farm-skill-points",
+  "game": "forza-horizon-6",
   "label": {
     "en_US": "Farm Skill Points",
     "zh_TW": "刷技能點",
@@ -40,7 +51,7 @@ Each pack entry uses localized text for user-facing fields:
 }
 ```
 
-Use `en_US`, `zh_TW`, and `zh_CN` for new packs.
+Use `en_US`, `zh_TW`, and `zh_CN` for new pack labels and descriptions.
 
 ### Versioning
 

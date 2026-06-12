@@ -1,11 +1,16 @@
 {
   "schema_version": 1,
   "repo_url": "https://github.com/remaku/remaku-packs",
+  "games": [
+    {
+      "id": "forza-horizon-6",
+      "label": "Forza Horizon 6"
+    }
+  ],
   "packs": [
     {
       "pack_id": "forza-horizon-6.buy-22b",
       "game": "forza-horizon-6",
-      "name": "buy-22b",
       "label": {
         "en_US": "Buy 22B",
         "zh_TW": "購買 22B",
@@ -19,8 +24,6 @@
       "author": "Remaku",
       "version": "1.0.0",
       "release_tag": "v2",
-      "category": "farming",
-      "target_window": "Forza Horizon 6",
       "source": {
         "repo_path": "packs/forza-horizon-6/buy-22b",
         "macro_json_path": "packs/forza-horizon-6/buy-22b/macro.json"
@@ -37,7 +40,6 @@
     {
       "pack_id": "forza-horizon-6.farm-skill-points",
       "game": "forza-horizon-6",
-      "name": "farm-skill-points",
       "label": {
         "en_US": "Farm Skill Points",
         "zh_TW": "刷技能點",
@@ -51,8 +53,6 @@
       "author": "Remaku",
       "version": "1.0.0",
       "release_tag": "v2",
-      "category": "farming",
-      "target_window": "Forza Horizon 6",
       "source": {
         "repo_path": "packs/forza-horizon-6/farm-skill-points",
         "macro_json_path": "packs/forza-horizon-6/farm-skill-points/macro.json"
@@ -69,7 +69,6 @@
     {
       "pack_id": "forza-horizon-6.remove-22b",
       "game": "forza-horizon-6",
-      "name": "remove-22b",
       "label": {
         "en_US": "Remove 22B",
         "zh_TW": "移除 22B",
@@ -83,8 +82,6 @@
       "author": "Remaku",
       "version": "1.0.0",
       "release_tag": "v2",
-      "category": "farming",
-      "target_window": "Forza Horizon 6",
       "source": {
         "repo_path": "packs/forza-horizon-6/remove-22b",
         "macro_json_path": "packs/forza-horizon-6/remove-22b/macro.json"
@@ -101,7 +98,6 @@
     {
       "pack_id": "forza-horizon-6.upgrade-22b",
       "game": "forza-horizon-6",
-      "name": "upgrade-22b",
       "label": {
         "en_US": "Upgrade 22B",
         "zh_TW": "升級 22B",
@@ -115,8 +111,6 @@
       "author": "Remaku",
       "version": "1.0.0",
       "release_tag": "v2",
-      "category": "farming",
-      "target_window": "Forza Horizon 6",
       "source": {
         "repo_path": "packs/forza-horizon-6/upgrade-22b",
         "macro_json_path": "packs/forza-horizon-6/upgrade-22b/macro.json"
