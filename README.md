@@ -42,6 +42,24 @@ Each pack entry uses localized text for user-facing fields:
 
 Use `en_US`, `zh_TW`, and `zh_CN` for new packs.
 
+### Versioning
+
+`catalog.json` tracks three separate version concepts:
+
+- `schema_version` is the catalog format version. Bump it only when the catalog structure changes incompatibly.
+- Each pack's `version` is the macro pack version. Bump only the packs whose macro, templates, or compatibility changed.
+- Each pack's `release_tag` points to the repository release that published that pack version.
+
+Repository releases are snapshot releases. A single repo tag, such as `v2`, can publish multiple packs with different pack versions. Later repo releases only need to bump the pack versions that changed.
+
+Use semantic versioning for pack versions:
+
+- Patch: macro fixes, coordinate adjustments, or template updates.
+- Minor: new macro behavior, new supported flow, or meaningful feature changes.
+- Major: incompatible macro behavior, format requirements, or Remaku compatibility changes.
+
+Catalog-only metadata changes, such as label or description updates, do not need a pack version bump unless they affect compatibility or behavior.
+
 ## Contributing
 
 1. Create or edit files under `packs/<game-slug>/<pack_name>/` (`macro.json` + `templates/`)
