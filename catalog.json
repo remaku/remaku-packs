@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "repo_url": "https://github.com/remaku/remaku-packs",
+  "packs": [
+    {
+      "pack_id": "forza-horizon-6.buy-22b",
+      "game": "forza-horizon-6",
+      "name": "buy-22b",
+      "label": {
+        "en_US": "Buy 22B",
+        "zh_TW": "購買 22B",
+        "zh_CN": "购买 22B"
+      },
+      "description": {
+        "en_US": "Automatically runs the 22B purchase flow in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行購買 22B 的流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行购买 22B 的流程。"
+      },
+      "author": "Remaku",
+      "version": "1.0.0",
+      "category": "farming",
+      "target_window": "Forza Horizon 6",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/buy-22b",
+        "macro_json_path": "packs/forza-horizon-6/buy-22b/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-buy-22b.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    },
+    {
+      "pack_id": "forza-horizon-6.farm-skill-points",
+      "game": "forza-horizon-6",
+      "name": "farm-skill-points",
+      "label": {
+        "en_US": "Farm Skill Points",
+        "zh_TW": "刷技能點",
+        "zh_CN": "刷技能点"
+      },
+      "description": {
+        "en_US": "Automatically farms skill points in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行刷技能點流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行刷技能点流程。"
+      },
+      "author": "Remaku",
+      "version": "1.0.0",
+      "category": "farming",
+      "target_window": "Forza Horizon 6",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/farm-skill-points",
+        "macro_json_path": "packs/forza-horizon-6/farm-skill-points/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-farm-skill-points.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    },
+    {
+      "pack_id": "forza-horizon-6.remove-22b",
+      "game": "forza-horizon-6",
+      "name": "remove-22b",
+      "label": {
+        "en_US": "Remove 22B",
+        "zh_TW": "移除 22B",
+        "zh_CN": "移除 22B"
+      },
+      "description": {
+        "en_US": "Automatically runs the 22B removal flow in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行移除 22B 的流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行移除 22B 的流程。"
+      },
+      "author": "Remaku",
+      "version": "1.0.0",
+      "category": "farming",
+      "target_window": "Forza Horizon 6",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/remove-22b",
+        "macro_json_path": "packs/forza-horizon-6/remove-22b/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-remove-22b.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    },
+    {
+      "pack_id": "forza-horizon-6.upgrade-22b",
+      "game": "forza-horizon-6",
+      "name": "upgrade-22b",
+      "label": {
+        "en_US": "Upgrade 22B",
+        "zh_TW": "升級 22B",
+        "zh_CN": "升级 22B"
+      },
+      "description": {
+        "en_US": "Automatically runs the 22B upgrade flow in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行升級 22B 的流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行升级 22B 的流程。"
+      },
+      "author": "Remaku",
+      "version": "1.0.0",
+      "category": "farming",
+      "target_window": "Forza Horizon 6",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/upgrade-22b",
+        "macro_json_path": "packs/forza-horizon-6/upgrade-22b/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-upgrade-22b.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    }
+  ]
+}

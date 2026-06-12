@@ -18,9 +18,10 @@ jobs:
         run: |
           mkdir -p output
           for game_dir in packs/*/; do
+            game=$(basename "$game_dir")
             for pack_dir in "$game_dir"*/; do
               pack=$(basename "$pack_dir")
-              (cd "$pack_dir" && zip -qr "../../../output/${pack}.zip" .)
+              (cd "$pack_dir" && zip -qr "../../../output/${game}-${pack}.zip" .)
             done
           done
           echo "--- Built packs ---"

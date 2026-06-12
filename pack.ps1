@@ -8,7 +8,7 @@ New-Item -ItemType Directory -Path $outputDir | Out-Null
 
 foreach ($gameDir in Get-ChildItem -Directory -Path "packs") {
     foreach ($packDir in Get-ChildItem -Directory -Path $gameDir.FullName) {
-        $zipPath = Join-Path $outputDir "$($packDir.Name).zip"
+        $zipPath = Join-Path $outputDir "$($gameDir.Name)-$($packDir.Name).zip"
         Compress-Archive -Path "$($packDir.FullName)\*" -DestinationPath $zipPath -Force
         Write-Host "Packed: $zipPath"
     }
