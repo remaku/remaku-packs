@@ -1,5 +1,31 @@
 # Changelog
 
+## v2
+
+<!-- lang:en -->
+
+### Changed
+
+- Added `catalog.json` as the machine-readable pack catalog for Remaku's Pack Explorer
+- Renamed macro pack directories to use full game slugs and lowercase hyphenated pack names
+- Prepared release assets and metadata so Remaku can discover packs from this repository
+
+<!-- lang:zh_tw -->
+
+### 變更
+
+- 新增 `catalog.json`，作為 Remaku Pack Explorer 使用的機器可讀取巨集包目錄
+- 將巨集包目錄改為完整遊戲 slug，並使用小寫連字號命名巨集包
+- 準備 Release 資產與中繼資料，讓 Remaku 可從此倉庫探索巨集包
+
+<!-- lang:zh_cn -->
+
+### 变更
+
+- 新增 `catalog.json`，作为 Remaku Pack Explorer 使用的机器可读取宏包目录
+- 将宏包目录改为完整游戏 slug，并使用小写连字符命名宏包
+- 准备 Release 资源与元数据，让 Remaku 可从此仓库发现宏包
+
 ## v1
 
 <!-- lang:en -->
