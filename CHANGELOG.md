@@ -1,5 +1,43 @@
 # Changelog
 
+## v3
+
+<!-- lang:en -->
+
+### Added
+
+- New Revuelto (Lamborghini) packs for Forza Horizon 6: **buy-revuelto**, **remove-revuelto**, and **upgrade-revuelto**
+
+### Changed
+
+- Updated all 22B pack template images with new high-quality captures
+- Added `pack` version field in `catalog.json` for pack versioning
+- Refined game metadata documentation in README
+
+<!-- lang:zh_tw -->
+
+### 新增
+
+- 為 Forza Horizon 6 新增 Revuelto（Lamborghini）巨集包：**buy-revuelto**、**remove-revuelto** 及 **upgrade-revuelto**
+
+### 變更
+
+- 以全新高品質截圖更新所有 22B 巨集包模板圖片
+- 在 `catalog.json` 中新增 `pack` 版本欄位以支援巨集包版本管理
+- 完善 README 中的遊戲中繼資料說明
+
+<!-- lang:zh_cn -->
+
+### 新增
+
+- 为 Forza Horizon 6 新增 Revuelto（Lamborghini）宏包：**buy-revuelto**、**remove-revuelto** 及 **upgrade-revuelto**
+
+### 变更
+
+- 以全新高品质截图更新所有 22B 宏包模板图片
+- 在 `catalog.json` 中新增 `pack` 版本字段以支持宏包版本管理
+- 完善 README 中的游戏元数据说明
+
 ## v2
 
 <!-- lang:en -->
