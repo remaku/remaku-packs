@@ -1,11 +1,13 @@
 {
   "meta": {
-    "name": "1780171581",
+    "name": "1781348014",
     "label": "購買 22B",
-    "target_window": "Forza Horizon 6"
+    "target_window": "Forza Horizon 6",
+    "hotkey": "",
+    "enabled": true
   },
   "templates": {
-    "1780171642": {
+    "1781348236": {
       "label": "22B",
       "capture_width": 3840,
       "capture_height": 2160
@@ -14,49 +16,69 @@
   "steps": [
     {
       "type": "repeat",
+      "skip": false,
+      "note": "",
       "count": 33,
       "steps": [
         {
           "type": "wait_image",
-          "template": "1780171642",
+          "skip": false,
+          "note": "",
+          "template": "1781348236",
           "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "space",
           "hold_ms": 90
         },
         {
           "type": "delay",
+          "skip": false,
+          "note": "",
           "ms": 300
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "down",
           "hold_ms": 90
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "enter",
           "hold_ms": 90
         },
         {
           "type": "delay",
+          "skip": false,
+          "note": "",
           "ms": 300
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "enter",
           "hold_ms": 90
         },
         {
           "type": "delay",
+          "skip": false,
+          "note": "",
           "ms": 300
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "enter",
           "hold_ms": 90
         }

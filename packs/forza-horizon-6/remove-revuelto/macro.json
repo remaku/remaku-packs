@@ -1,29 +1,24 @@
 {
   "meta": {
-    "name": "1781348019",
-    "label": "刷技能點",
+    "name": "1781348023",
+    "label": "移除 Revuelto",
     "target_window": "Forza Horizon 6",
     "hotkey": "",
     "enabled": true
   },
   "templates": {
-    "1781349163": {
-      "label": "開始賽事",
-      "capture_width": 3840,
-      "capture_height": 2160
-    },
-    "1781349177": {
-      "label": "Anna",
-      "capture_width": 3840,
-      "capture_height": 2160
-    },
-    "1781349217": {
-      "label": "重新開始",
-      "capture_width": 3840,
-      "capture_height": 2160
-    },
-    "1781349226": {
+    "1780174865": {
       "label": "是",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1780174830": {
+      "label": "移除車輛",
+      "capture_width": 3840,
+      "capture_height": 2160
+    },
+    "1781347423": {
+      "label": "Revuelto",
       "capture_width": 3840,
       "capture_height": 2160
     }
@@ -33,14 +28,14 @@
       "type": "repeat",
       "skip": false,
       "note": "",
-      "count": 100,
+      "count": 25,
       "steps": [
         {
           "type": "wait_image",
           "skip": false,
           "note": "",
-          "template": "1781349163",
-          "timeout_ms": 20000,
+          "template": "1781347423",
+          "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },
@@ -52,23 +47,38 @@
           "hold_ms": 90
         },
         {
-          "type": "hold_key_until_gone",
+          "type": "delay",
           "skip": false,
           "note": "",
-          "key": "w",
-          "template": "1781349177",
-          "load_delay_ms": 2000,
-          "find_timeout_ms": 15000,
-          "gone_grace_ms": 1500,
-          "hard_timeout_ms": 180000,
-          "threshold": 0.85
+          "ms": 300
+        },
+        {
+          "type": "repeat",
+          "skip": false,
+          "note": "",
+          "count": 4,
+          "steps": [
+            {
+              "type": "key",
+              "skip": false,
+              "note": "",
+              "key": "down",
+              "hold_ms": 90
+            },
+            {
+              "type": "delay",
+              "skip": false,
+              "note": "",
+              "ms": 100
+            }
+          ]
         },
         {
           "type": "wait_image",
           "skip": false,
           "note": "",
-          "template": "1781349217",
-          "timeout_ms": 20000,
+          "template": "1780174830",
+          "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },
@@ -76,21 +86,28 @@
           "type": "key",
           "skip": false,
           "note": "",
-          "key": "x",
+          "key": "enter",
           "hold_ms": 90
         },
         {
           "type": "delay",
           "skip": false,
           "note": "",
-          "ms": 300
+          "ms": 500
+        },
+        {
+          "type": "key",
+          "skip": false,
+          "note": "",
+          "key": "down",
+          "hold_ms": 90
         },
         {
           "type": "wait_image",
           "skip": false,
           "note": "",
-          "template": "1781349226",
-          "timeout_ms": 20000,
+          "template": "1780174865",
+          "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },

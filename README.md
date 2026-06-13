@@ -12,12 +12,15 @@ Community-shared macro packs for [Remaku](https://github.com/remaku/remaku).
 
 ### Forza Horizon 6 (`packs/forza-horizon-6/`)
 
-| Pack                                                                                                                                           | Description          |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| [forza-horizon-6-buy-22b.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-buy-22b.zip)                     | Auto-buy 22B car     |
-| [forza-horizon-6-farm-skill-points.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-farm-skill-points.zip) | Farm skill points    |
-| [forza-horizon-6-remove-22b.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-remove-22b.zip)               | Auto-remove 22B car  |
-| [forza-horizon-6-upgrade-22b.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-upgrade-22b.zip)             | Auto-upgrade 22B car |
+| Pack                                                                                                                                           | Description               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| [forza-horizon-6-buy-22b.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-buy-22b.zip)                     | Auto-buy 22B car          |
+| [forza-horizon-6-buy-revuelto.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-buy-revuelto.zip)           | Auto-buy Revuelto car     |
+| [forza-horizon-6-farm-skill-points.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-farm-skill-points.zip) | Farm skill points         |
+| [forza-horizon-6-remove-22b.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-remove-22b.zip)               | Auto-remove 22B car       |
+| [forza-horizon-6-remove-revuelto.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-remove-revuelto.zip)     | Auto-remove Revuelto car  |
+| [forza-horizon-6-upgrade-22b.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-upgrade-22b.zip)             | Auto-upgrade 22B car      |
+| [forza-horizon-6-upgrade-revuelto.zip](https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-upgrade-revuelto.zip)   | Auto-upgrade Revuelto car |
 
 ## Catalog
 

@@ -1,22 +1,24 @@
 {
   "meta": {
-    "name": "1780174748",
+    "name": "1781348021",
     "label": "移除 22B",
-    "target_window": "Forza Horizon 6"
+    "target_window": "Forza Horizon 6",
+    "hotkey": "",
+    "enabled": true
   },
   "templates": {
-    "1780174865": {
-      "label": "是",
+    "1781348865": {
+      "label": "22B",
       "capture_width": 3840,
       "capture_height": 2160
     },
-    "1780174830": {
+    "1781348881": {
       "label": "移除車輛",
       "capture_width": 3840,
       "capture_height": 2160
     },
-    "1780174771": {
-      "label": "22B",
+    "1781348890": {
+      "label": "是",
       "capture_width": 3840,
       "capture_height": 2160
     }
@@ -24,69 +26,95 @@
   "steps": [
     {
       "type": "repeat",
+      "skip": false,
+      "note": "",
       "count": 33,
       "steps": [
         {
           "type": "wait_image",
-          "template": "1780174771",
+          "skip": false,
+          "note": "",
+          "template": "1781348865",
           "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "enter",
           "hold_ms": 90
         },
         {
           "type": "delay",
+          "skip": false,
+          "note": "",
           "ms": 300
         },
         {
           "type": "repeat",
+          "skip": false,
+          "note": "",
           "count": 4,
           "steps": [
             {
               "type": "key",
+              "skip": false,
+              "note": "",
               "key": "down",
               "hold_ms": 90
             },
             {
               "type": "delay",
+              "skip": false,
+              "note": "",
               "ms": 100
             }
           ]
         },
         {
           "type": "wait_image",
-          "template": "1780174830",
+          "skip": false,
+          "note": "",
+          "template": "1781348881",
           "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "enter",
           "hold_ms": 90
         },
         {
           "type": "delay",
+          "skip": false,
+          "note": "",
           "ms": 500
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "down",
           "hold_ms": 90
         },
         {
           "type": "wait_image",
-          "template": "1780174865",
+          "skip": false,
+          "note": "",
+          "template": "1781348890",
           "timeout_ms": 5000,
           "on_timeout": "stop",
           "threshold": 0.85
         },
         {
           "type": "key",
+          "skip": false,
+          "note": "",
           "key": "enter",
           "hold_ms": 90
         }

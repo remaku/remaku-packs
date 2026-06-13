@@ -22,8 +22,8 @@
         "zh_CN": "在 Forza Horizon 6 中自动执行购买 22B 的流程。"
       },
       "author": "Remaku",
-      "version": "1.0.0",
-      "release_tag": "v2",
+      "version": "2.0.0",
+      "release_tag": "v3",
       "source": {
         "repo_path": "packs/forza-horizon-6/buy-22b",
         "macro_json_path": "packs/forza-horizon-6/buy-22b/macro.json"
@@ -51,8 +51,8 @@
         "zh_CN": "在 Forza Horizon 6 中自动执行刷技能点流程。"
       },
       "author": "Remaku",
-      "version": "1.0.0",
-      "release_tag": "v2",
+      "version": "2.0.0",
+      "release_tag": "v3",
       "source": {
         "repo_path": "packs/forza-horizon-6/farm-skill-points",
         "macro_json_path": "packs/forza-horizon-6/farm-skill-points/macro.json"
@@ -80,8 +80,8 @@
         "zh_CN": "在 Forza Horizon 6 中自动执行移除 22B 的流程。"
       },
       "author": "Remaku",
-      "version": "1.0.0",
-      "release_tag": "v2",
+      "version": "2.0.0",
+      "release_tag": "v3",
       "source": {
         "repo_path": "packs/forza-horizon-6/remove-22b",
         "macro_json_path": "packs/forza-horizon-6/remove-22b/macro.json"
@@ -109,14 +109,101 @@
         "zh_CN": "在 Forza Horizon 6 中自动执行升级 22B 的流程。"
       },
       "author": "Remaku",
-      "version": "1.0.0",
-      "release_tag": "v2",
+      "version": "2.0.0",
+      "release_tag": "v3",
       "source": {
         "repo_path": "packs/forza-horizon-6/upgrade-22b",
         "macro_json_path": "packs/forza-horizon-6/upgrade-22b/macro.json"
       },
       "assets": {
         "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-upgrade-22b.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    },
+    {
+      "pack_id": "forza-horizon-6.buy-revuelto",
+      "game": "forza-horizon-6",
+      "label": {
+        "en_US": "Buy Revuelto",
+        "zh_TW": "購買 Revuelto",
+        "zh_CN": "购买 Revuelto"
+      },
+      "description": {
+        "en_US": "Automatically runs the Revuelto purchase flow in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行購買 Revuelto 的流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行购买 Revuelto 的流程。"
+      },
+      "author": "Remaku",
+      "version": "2.0.0",
+      "release_tag": "v3",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/buy-revuelto",
+        "macro_json_path": "packs/forza-horizon-6/buy-revuelto/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-buy-revuelto.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    },
+    {
+      "pack_id": "forza-horizon-6.remove-revuelto",
+      "game": "forza-horizon-6",
+      "label": {
+        "en_US": "Remove Revuelto",
+        "zh_TW": "移除 Revuelto",
+        "zh_CN": "移除 Revuelto"
+      },
+      "description": {
+        "en_US": "Automatically runs the Revuelto removal flow in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行移除 Revuelto 的流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行移除 Revuelto 的流程。"
+      },
+      "author": "Remaku",
+      "version": "2.0.0",
+      "release_tag": "v3",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/remove-revuelto",
+        "macro_json_path": "packs/forza-horizon-6/remove-revuelto/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-remove-revuelto.zip",
+        "preview_image_url": ""
+      },
+      "compatibility": {
+        "remaku_min": "",
+        "remaku_max": ""
+      }
+    },
+    {
+      "pack_id": "forza-horizon-6.upgrade-revuelto",
+      "game": "forza-horizon-6",
+      "label": {
+        "en_US": "Upgrade Revuelto",
+        "zh_TW": "升級 Revuelto",
+        "zh_CN": "升级 Revuelto"
+      },
+      "description": {
+        "en_US": "Automatically runs the Revuelto upgrade flow in Forza Horizon 6.",
+        "zh_TW": "在 Forza Horizon 6 中自動執行升級 Revuelto 的流程。",
+        "zh_CN": "在 Forza Horizon 6 中自动执行升级 Revuelto 的流程。"
+      },
+      "author": "Remaku",
+      "version": "2.0.0",
+      "release_tag": "v3",
+      "source": {
+        "repo_path": "packs/forza-horizon-6/upgrade-revuelto",
+        "macro_json_path": "packs/forza-horizon-6/upgrade-revuelto/macro.json"
+      },
+      "assets": {
+        "zip_url": "https://github.com/remaku/remaku-packs/releases/latest/download/forza-horizon-6-upgrade-revuelto.zip",
         "preview_image_url": ""
       },
       "compatibility": {
